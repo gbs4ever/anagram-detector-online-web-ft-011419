@@ -8,9 +8,11 @@ end
  def match(words)
 
   words.select do |element|
-t=element.split(" ")
-s=@words.split(" ")
-s.sort== t.sort
+element
+
+#t=element.split(" ")
+#s=@words.split(" ")
+#s.sort== t.sort
    end
  end
 
