@@ -8,7 +8,7 @@ end
  def match(words)
    binding.pry
   words.each do |word|
-
+word == @word
    end
  end
 
