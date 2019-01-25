@@ -6,7 +6,7 @@ def  initialize(word)
   @word = word
 end
  def match(words)
-  
+
   words.each do |element|
 element.sort == @word.sort
    end
