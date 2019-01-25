@@ -5,11 +5,11 @@ attr_accessor :word ,:name
 def  initialize(word)
   @word = word
 end
- def StackOverflowf.match(words)
-s=@words.split(" ")
-  words.each do |element|
-t=element.split(" ")
+ def match(words)
 
+  words.select do |element|
+t=element.split(" ")
+s=@words.split(" ")
 s.sort== t.sort
    end
  end
