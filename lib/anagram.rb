@@ -6,9 +6,9 @@ def  initialize(word)
   @word = word
 end
  def match(words)
-   binding.pry
-  words.each do |word|
-word == @word
+  
+  words.each do |element|
+element.sort == @word.sort
    end
  end
 
