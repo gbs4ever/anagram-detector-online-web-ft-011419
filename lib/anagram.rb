@@ -6,9 +6,11 @@ def  initialize(word)
   @word = word
 end
  def match(words)
-
+s=@words.split(" ")
   words.each do |element|
-element.sort == @word.sort
+t=element.split(" ")
+
+s.sort== t.sort
    end
  end
 
