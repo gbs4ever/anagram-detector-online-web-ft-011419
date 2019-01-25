@@ -9,7 +9,7 @@ end
 
   words.select do |element|
 element
-
+binding.pry
 #t=element.split(" ")
 #s=@words.split(" ")
 #s.sort== t.sort
