@@ -8,7 +8,7 @@ end
  def match(words)
 
   words.select do |element|
-#element.split("").sort == @word.split("").sort
+element.split("").sort == @word.split("").sort
 
 t=element.split("")
 s=@words.split("")
